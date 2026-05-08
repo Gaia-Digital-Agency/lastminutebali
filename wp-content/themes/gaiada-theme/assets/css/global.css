@@ -83,6 +83,53 @@ li {
 	font-size: 24px !important;
 }
 
+.whatsapp-float {
+	position: fixed;
+	right: 24px;
+	bottom: 24px;
+	z-index: 999999998;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 60px;
+	height: 60px;
+	border-radius: 999px;
+	background: #25d366;
+	color: #fff !important;
+	text-decoration: none;
+	box-shadow: 0 16px 28px rgba(0, 0, 0, 0.24);
+	transition:
+		transform 0.2s ease,
+		box-shadow 0.2s ease,
+		background-color 0.2s ease;
+}
+
+.whatsapp-float i {
+	font-size: 34px;
+	line-height: 1;
+	color: #fff !important;
+}
+
+.whatsapp-float:hover,
+.whatsapp-float:focus-visible {
+	transform: translateY(-2px);
+	background: #1fb85a;
+	box-shadow: 0 20px 32px rgba(0, 0, 0, 0.28);
+}
+
+@media (max-width: 640px) {
+	.whatsapp-float {
+		right: 16px;
+		bottom: 16px;
+		width: 54px;
+		height: 54px;
+	}
+
+	.whatsapp-float i {
+		font-size: 30px;
+	}
+}
+
 /* B U T T O N S */
 .btn {
 	display: flex !important;
@@ -367,6 +414,52 @@ header {
 }
 
 @media (max-width: 1024px) {
+	body {
+		font-size: 16px;
+		line-height: 1.65;
+	}
+
+	p,
+	span,
+	li {
+		font-size: 16px;
+		line-height: 1.65;
+	}
+
+	.heading-1 {
+		font-size: clamp(44px, 5.5vw, 56px);
+		line-height: 1.08;
+	}
+
+	.heading-2 {
+		font-size: clamp(30px, 3.8vw, 36px);
+		line-height: 1.15;
+	}
+
+	.heading-3 {
+		font-size: clamp(24px, 3vw, 28px);
+		line-height: 1.2;
+	}
+
+	.heading-4 {
+		font-size: 22px;
+		line-height: 1.25;
+	}
+
+	.heading-5 {
+		font-size: 18px;
+		line-height: 1.3;
+	}
+
+	.text-large {
+		font-size: 20px !important;
+		line-height: 1.5;
+	}
+
+	.btn .btn-wrapper .btn-text {
+		font-size: 16px;
+	}
+
 	.single-accomodation .banner {
 		min-height: 260px;
 		background-position: center center;
@@ -434,5 +527,63 @@ header {
 	.single-accomodation .room-overview li {
 		font-size: 16px;
 		line-height: 1.5;
+	}
+}
+
+@media (max-width: 640px) {
+	body {
+		font-size: 15px;
+		line-height: 1.6;
+	}
+
+	p,
+	span,
+	li {
+		font-size: 15px;
+		line-height: 1.6;
+	}
+
+	.heading-1 {
+		font-size: clamp(34px, 9vw, 42px);
+		line-height: 1.08;
+	}
+
+	.heading-2 {
+		font-size: clamp(26px, 7vw, 32px);
+		line-height: 1.15;
+	}
+
+	.heading-3 {
+		font-size: clamp(22px, 6vw, 26px);
+		line-height: 1.2;
+	}
+
+	.heading-4 {
+		font-size: 20px;
+		line-height: 1.25;
+	}
+
+	.heading-5 {
+		font-size: 18px;
+		line-height: 1.3;
+	}
+
+	.text-large {
+		font-size: 18px !important;
+		line-height: 1.45;
+	}
+
+	.btn .btn-wrapper .btn-text {
+		font-size: 15px;
+	}
+
+	.mobile-menu-title {
+		font-size: 0.95rem;
+		letter-spacing: 0.07em;
+	}
+
+	.mobile-menu-kicker {
+		font-size: 11px;
+		letter-spacing: 0.16em;
 	}
 }
