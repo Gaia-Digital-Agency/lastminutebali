@@ -1,0 +1,75 @@
+.home-cta {
+	padding-top: clamp(3rem, 5vw, 5rem);
+	padding-bottom: clamp(3rem, 5vw, 5rem);
+	background: linear-gradient(180deg, #ffffff 0%, #f5f7f9 100%);
+}
+
+.cta-panel {
+	position: relative;
+	overflow: hidden;
+	padding: clamp(1.5rem, 3vw, 2.25rem);
+	border-radius: 28px;
+	background:
+		radial-gradient(circle at top right, rgba(255, 255, 255, 0.18), transparent 34%),
+		linear-gradient(135deg, var(--Color-Primary-2), var(--Color-Primary-1));
+	box-shadow: 0 24px 60px rgba(227, 4, 37, 0.2);
+}
+
+.cta-panel::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	background:
+		linear-gradient(115deg, rgba(255, 255, 255, 0.1) 0%, transparent 55%),
+		linear-gradient(180deg, rgba(0, 0, 0, 0.06) 0%, rgba(0, 0, 0, 0.14) 100%);
+	pointer-events: none;
+}
+
+.cta-panel .row {
+	position: relative;
+	z-index: 1;
+}
+
+.cta-kicker {
+	font-size: 14px;
+	letter-spacing: 0.18em;
+	font-weight: 700;
+	color: rgba(255, 255, 255, 0.82) !important;
+}
+
+.cta-copy {
+	max-width: 640px;
+	font-size: 17px;
+	line-height: 1.6;
+}
+
+.cta-button.btn.btn-secondary {
+	background-color: rgba(255, 255, 255, 0.12) !important;
+	border-color: rgba(255, 255, 255, 0.28) !important;
+}
+
+.cta-button.btn.btn-secondary .btn-text {
+	color: var(--Color-White) !important;
+}
+
+.cta-button.btn.btn-secondary:hover,
+.cta-button.btn.btn-secondary:focus-visible {
+	background-color: rgba(255, 255, 255, 0.2) !important;
+	border-color: rgba(255, 255, 255, 0.42) !important;
+	box-shadow: 0 10px 22px rgba(0, 0, 0, 0.14);
+}
+
+.cta-button.btn.btn-secondary:hover .btn-text,
+.cta-button.btn.btn-secondary:focus-visible .btn-text {
+	color: var(--Color-White) !important;
+}
+
+@media (max-width: 767px) {
+	.cta-panel {
+		border-radius: 22px;
+	}
+
+	.cta-copy {
+		font-size: 16px;
+	}
+}

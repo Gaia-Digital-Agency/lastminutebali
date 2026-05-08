@@ -1,0 +1,38 @@
+.home-trust-strip {
+	padding-top: clamp(2.5rem, 4vw, 4rem);
+	padding-bottom: clamp(2.5rem, 4vw, 4rem);
+	background: linear-gradient(180deg, rgba(245, 247, 249, 0.92), rgba(255, 255, 255, 1));
+}
+
+.trust-item {
+	padding: 1.15rem 1.2rem;
+	border-radius: 18px;
+	background: rgba(255, 255, 255, 0.82);
+	border: 1px solid rgba(227, 4, 37, 0.08);
+	box-shadow: 0 10px 30px rgba(33, 37, 41, 0.05);
+}
+
+.trust-icon {
+	width: 52px;
+	height: 52px;
+	border-radius: 16px;
+	background: linear-gradient(135deg, var(--Color-Primary-2), var(--Color-Primary-1));
+	color: var(--Color-White) !important;
+	flex: 0 0 auto;
+	box-shadow: 0 10px 20px rgba(227, 4, 37, 0.18);
+}
+
+.trust-icon i {
+	font-size: 20px;
+}
+
+.trust-copy p {
+	font-size: 15px;
+	line-height: 1.55;
+}
+
+@media (max-width: 767px) {
+	.trust-item {
+		padding: 1rem 1.1rem;
+	}
+}
