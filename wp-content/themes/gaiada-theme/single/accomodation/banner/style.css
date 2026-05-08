@@ -14,8 +14,12 @@
 	content: "";
 	position: absolute;
 	inset: 0;
-	background:
-		linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.5) 100%);
+	background: linear-gradient(
+		180deg,
+		rgba(0, 0, 0, 0.88) 0%,
+		rgba(0, 0, 0, 0.52) 22%,
+		rgba(0, 0, 0, 0) 58%
+	);
 	pointer-events: none;
 }
 
