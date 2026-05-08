@@ -28,8 +28,8 @@ jobs:
                   password: ${{ secrets.SFTP_PASSWORD }}
                   port: ${{ secrets.SFTP_PORT }}
                   protocol: ftp
-                  local-dir: ./wp-content/themes/scamcheck/
-                  server-dir: /public_html/wp-content/themes/scamcheck/
+                  local-dir: ./wp-content/themes/gaiada-theme/
+                  server-dir: /public_html/wp-content/themes/gaiada-theme/
                   dangerous-clean-slate: false
                   exclude: |
                       **/.git*
