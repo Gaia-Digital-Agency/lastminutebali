@@ -55,3 +55,14 @@ function enqueue_assets() {
 add_action( 'wp_enqueue_scripts', 'enqueue_assets' );
 
 require_once get_template_directory() . '/inc/theme-settings.php';
+
+// Accomodation to Room
+add_filter( 'register_post_type_args', function ( $args, $post_type ) {
+    if ( 'accomodation' === $post_type ) {
+        $args['rewrite'] = array( 'slug' => 'room' );
+        
+        $args['labels']['name'] = 'Rooms';
+        $args['labels']['menu_name'] = 'Rooms';
+    }
+    return $args;
+}, 10, 2 );

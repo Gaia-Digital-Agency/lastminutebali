@@ -35,7 +35,7 @@ $trust_points = array(
 							<i class="<?php echo esc_attr( $point['icon'] ); ?>"></i>
 						</div>
 						<div class="trust-copy">
-							<h3 class="heading-5 mb-1"><?php echo esc_html( $point['title'] ); ?></h3>
+							<h2 class="heading-5 mb-1"><?php echo esc_html( $point['title'] ); ?></h2>
 							<p class="mb-0"><?php echo esc_html( $point['text'] ); ?></p>
 						</div>
 					</div>

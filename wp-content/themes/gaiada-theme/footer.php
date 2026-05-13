@@ -26,6 +26,18 @@ $whatsapp_url = $whatsapp_digits
 		<span class="visually-hidden">Chat on WhatsApp</span>
 	</a>
 <?php endif; ?>
+
+<style>
+	/* GTA CTA */
+	.gta-cta {
+		color: #6a6a6a;
+		text-decoration: none;
+	}
+	.gta-cta:hover {
+		text-decoration: underline;
+	}
+</style>
+
 <footer>
 	<div class="container">
 		<!-- Bottom -->
@@ -33,7 +45,7 @@ $whatsapp_url = $whatsapp_digits
 			<p class="mb-0">
 				©
 				<?php echo date( 'Y' ); ?>
-				<?php bloginfo( 'name' ); ?>. All rights reserved.
+				<?php bloginfo( 'name' ); ?>. All rights reserved. Developed by <a class="gta-cta" href="https://gaiada.com" target="_blank" rel="noopener noreferrer">Gaia Digital Agency.</a>
 			</p>
 		</div>
 

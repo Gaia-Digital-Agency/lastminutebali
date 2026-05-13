@@ -1,0 +1,323 @@
+{
+    "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
+    "version": "1.0.0",
+    "generatedTime": 1778230211797,
+    "data": [
+        {
+            "type": "folder",
+            "name": "acf-json"
+        },
+        {
+            "type": "folder",
+            "name": "assets"
+        },
+        {
+            "type": "file",
+            "name": "footer.php",
+            "size": 1213,
+            "hash": "2ad6622497a764d1c97e32839d1ce0c501d5afd04d0ce8c9d17072ac8396e179"
+        },
+        {
+            "type": "file",
+            "name": "functions.php",
+            "size": 1374,
+            "hash": "2bd6da27ebcea6204b796bd379f03e18653809053d8c7e8de605302b7b7978cb"
+        },
+        {
+            "type": "file",
+            "name": "header.php",
+            "size": 3099,
+            "hash": "889f35a2db6c10a5948f3bf99520cb15af27d28c4cd87de56236df9644c44bc1"
+        },
+        {
+            "type": "folder",
+            "name": "inc"
+        },
+        {
+            "type": "file",
+            "name": "index.php",
+            "size": 119,
+            "hash": "30962ca3b6bd6584a1bf4ff7abd6bdc46e10e1d7d528702e11ed20e392c02a5d"
+        },
+        {
+            "type": "folder",
+            "name": "pages"
+        },
+        {
+            "type": "file",
+            "name": "screenshot.png",
+            "size": 127582,
+            "hash": "b5bcdfa0bb1190fa99f3cfd6d0d567858cd23e45b6e2fd7d8db5954210af7a82"
+        },
+        {
+            "type": "folder",
+            "name": "single"
+        },
+        {
+            "type": "file",
+            "name": "style.css",
+            "size": 318,
+            "hash": "dec26ca5105bc3935d204792e87a8f564fa7c558f8a5e6199ecfa269ced1763b"
+        },
+        {
+            "type": "file",
+            "name": "acf-json/group_69fc1de7c9a89.json",
+            "size": 3057,
+            "hash": "222ae10299e4c27e6cf1a66e10f41c6c4dcc04293d1875208517c8ce300510c9"
+        },
+        {
+            "type": "file",
+            "name": "acf-json/group_69fd42f04e631.json",
+            "size": 11261,
+            "hash": "b00631881e544dd207987290a4a56934b43b2927927086a51e597125e7d34f28"
+        },
+        {
+            "type": "file",
+            "name": "acf-json/group_69fd85a48c697.json",
+            "size": 1201,
+            "hash": "332f693396bcc0bfbc78f4c78cfc2d996b5c74760b25b0e6b804a36b2c23efdc"
+        },
+        {
+            "type": "file",
+            "name": "acf-json/post_type_69fd40e1c9c37.json",
+            "size": 3058,
+            "hash": "ba8b74cb2dad6dee2752ee9bdf42d2d6d832c187ea4bc878225a6629d3918889"
+        },
+        {
+            "type": "file",
+            "name": "acf-json/ui_options_page_69fd858381c91.json",
+            "size": 640,
+            "hash": "5c11ad14e842cb1e1d93938e9983186d48a4205616e4898fe1993068f5bf4efc"
+        },
+        {
+            "type": "folder",
+            "name": "assets/css"
+        },
+        {
+            "type": "folder",
+            "name": "assets/images"
+        },
+        {
+            "type": "folder",
+            "name": "assets/js"
+        },
+        {
+            "type": "file",
+            "name": "inc/theme-settings.php",
+            "size": 5661,
+            "hash": "a472ca82240f26e056dfac5e534f748b97df3f6fa59436da31fdd1820d17593b"
+        },
+        {
+            "type": "folder",
+            "name": "pages/home"
+        },
+        {
+            "type": "folder",
+            "name": "pages/style-guide"
+        },
+        {
+            "type": "folder",
+            "name": "single/accomodation"
+        },
+        {
+            "type": "file",
+            "name": "assets/css/global.css",
+            "size": 10487,
+            "hash": "f8295832c400d66f8439537eb8f917ba2f027a433478e7154640f259d96c5bd4"
+        },
+        {
+            "type": "file",
+            "name": "assets/images/logo.webp",
+            "size": 6472,
+            "hash": "276f54820799a18e6deebaf0b2bd848444fc953f134a62500ab5b642cdaa006b"
+        },
+        {
+            "type": "file",
+            "name": "assets/js/main.js",
+            "size": 1729,
+            "hash": "b2376c56dcf3835ef905e07e1540ae908c9783689a231a116ec3cafae6e04c57"
+        },
+        {
+            "type": "folder",
+            "name": "pages/home/accomodation"
+        },
+        {
+            "type": "folder",
+            "name": "pages/home/banner"
+        },
+        {
+            "type": "folder",
+            "name": "pages/home/cta"
+        },
+        {
+            "type": "file",
+            "name": "pages/home/template.php",
+            "size": 315,
+            "hash": "ab47546c87d2e35072aa2f4398aa15a6e6d9c34a38337905f3460b3e5f16b8ef"
+        },
+        {
+            "type": "folder",
+            "name": "pages/home/trust-strip"
+        },
+        {
+            "type": "folder",
+            "name": "pages/home/why-us"
+        },
+        {
+            "type": "folder",
+            "name": "pages/style-guide/buttons"
+        },
+        {
+            "type": "file",
+            "name": "pages/style-guide/template.php",
+            "size": 241,
+            "hash": "31508e2c2d76e5a9c45b54511c387da1ac119a38bca7550aab4ca9d19e4c8aa7"
+        },
+        {
+            "type": "folder",
+            "name": "pages/style-guide/typography"
+        },
+        {
+            "type": "folder",
+            "name": "single/accomodation/banner"
+        },
+        {
+            "type": "folder",
+            "name": "single/accomodation/description"
+        },
+        {
+            "type": "folder",
+            "name": "single/accomodation/gallery"
+        },
+        {
+            "type": "folder",
+            "name": "single/accomodation/room-detail"
+        },
+        {
+            "type": "file",
+            "name": "single/accomodation/template.php",
+            "size": 277,
+            "hash": "ed3349588495a8aa982f8610b4e6d9a0bb378e9f125d662037a2a8398f07c479"
+        },
+        {
+            "type": "file",
+            "name": "pages/home/accomodation/layout.php",
+            "size": 3007,
+            "hash": "3daf20f29676fb66d26d893dc5e8a911ece5da61c8ba3c7003a747922e81c4f1"
+        },
+        {
+            "type": "file",
+            "name": "pages/home/accomodation/style.css",
+            "size": 3730,
+            "hash": "c2713ea64ef3f88c0abec3462daef6a4100e864caf28fb07abcc8302b94e892d"
+        },
+        {
+            "type": "file",
+            "name": "pages/home/banner/layout.php",
+            "size": 618,
+            "hash": "bb43bad0bff6e7c05ea6a82ea8e01f29093d264869ba96c1789e79d04f90f04e"
+        },
+        {
+            "type": "file",
+            "name": "pages/home/banner/style.css",
+            "size": 930,
+            "hash": "5a68c2921051744225ddfccfd2800c1f453b7dbbe8c784843e64c66de01667cb"
+        },
+        {
+            "type": "file",
+            "name": "pages/home/cta/layout.php",
+            "size": 767,
+            "hash": "f26abd440c0a93a4691fbdf11f387ad50a6f1e9378953a4955325dffcbfb0e17"
+        },
+        {
+            "type": "file",
+            "name": "pages/home/cta/style.css",
+            "size": 1723,
+            "hash": "52ec19a68b218adcfc67f4d41ff919987bf6f4394e971980f7d9341cc80a741b"
+        },
+        {
+            "type": "file",
+            "name": "pages/home/trust-strip/layout.php",
+            "size": 1335,
+            "hash": "91331bcfa4bde7645baa9010dfea82f41141d30cc6a506edc2ec36f22f5a6d77"
+        },
+        {
+            "type": "file",
+            "name": "pages/home/trust-strip/style.css",
+            "size": 817,
+            "hash": "d8ec0fc30da3e2e238e6b3b2fedf08704d933d54e5c7c838a8c28de24ff799ad"
+        },
+        {
+            "type": "file",
+            "name": "pages/home/why-us/layout.php",
+            "size": 1758,
+            "hash": "e6d23243a62685f63006de81db6d33fa9a50f3ab84f8a900e71c397ab3a1e3b8"
+        },
+        {
+            "type": "file",
+            "name": "pages/home/why-us/style.css",
+            "size": 1155,
+            "hash": "bec36f5c584e9a14dacc1aefebc1040d5c8636ae269886ef906924d5f696fe54"
+        },
+        {
+            "type": "file",
+            "name": "pages/style-guide/buttons/layout.php",
+            "size": 502,
+            "hash": "31e7ba564d9a3f39dfc05547b39c8f817876b599fa390bb3337ca09e6684e934"
+        },
+        {
+            "type": "file",
+            "name": "pages/style-guide/typography/layout.php",
+            "size": 2264,
+            "hash": "5b66b395149a787d745dd317c62b15f59dcd3953e40f66b50ee7ee9b87aa59eb"
+        },
+        {
+            "type": "file",
+            "name": "single/accomodation/banner/layout.php",
+            "size": 1476,
+            "hash": "50673899314d6bef6eefe5719bc218817af69f67749288a3ffa3f18da2321535"
+        },
+        {
+            "type": "file",
+            "name": "single/accomodation/banner/style.css",
+            "size": 2004,
+            "hash": "860e7050d4e5b32cc2ec2ede22f3767e099a857c4c471188cdd2df01890a3060"
+        },
+        {
+            "type": "file",
+            "name": "single/accomodation/description/layout.php",
+            "size": 909,
+            "hash": "9f00e7c6488d7e2a943c9579046edf762cc716f6d23cb83d0e58a23e45b80555"
+        },
+        {
+            "type": "file",
+            "name": "single/accomodation/description/style.css",
+            "size": 375,
+            "hash": "fb2203a3ced74e1e89f392e56b37191b1abe2f7ff877bcf671fcb1c5ab81c4b5"
+        },
+        {
+            "type": "file",
+            "name": "single/accomodation/gallery/layout.php",
+            "size": 1104,
+            "hash": "2e76fa7b0d32fad1c6c7a6b43950417a9352777ac423976b20466758eb15d030"
+        },
+        {
+            "type": "file",
+            "name": "single/accomodation/gallery/script.js",
+            "size": 381,
+            "hash": "a3c0cb0c60f2881af3032aeef8d450cad0fb8b408357113a640c2b511c2c8452"
+        },
+        {
+            "type": "file",
+            "name": "single/accomodation/gallery/style.css",
+            "size": 314,
+            "hash": "dc5ddfa91b791acf90b9383261a23f20b848866f23cd59f9bc2d836f02f53cbe"
+        },
+        {
+            "type": "file",
+            "name": "single/accomodation/room-detail/layout.php",
+            "size": 1346,
+            "hash": "cd98b04a55a7ec665aae9a07070d38f00cf55d02af018c0c276cd2e66dd30b61"
+        }
+    ]
+}

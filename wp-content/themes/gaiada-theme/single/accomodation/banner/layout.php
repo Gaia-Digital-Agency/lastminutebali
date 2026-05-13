@@ -21,7 +21,7 @@ $whatsapp_url = $whatsapp_digits
 		<div class="row align-items-end">
 			<div class="col-lg-9 col-xl-8">
 				<div class="accomodation-banner-box">
-					<p class="accomodation-banner-kicker text-uppercase mb-2">Accommodation</p>
+					<p class="accomodation-banner-kicker text-uppercase mb-2">Room</p>
 					<h1 class="heading-1 text-white mb-3"><?php echo esc_html( $accomodation_title ); ?></h1>
 					<?php if ( $whatsapp_url ) : ?>
 						<div class="accomodation-banner-actions d-flex flex-wrap align-items-center gap-3 mt-5">

@@ -33,7 +33,7 @@ $accomodation_link = is_front_page() ? '#accomodation-listing' : home_url( '/#ac
 					<a href="<?php echo esc_url( $accomodation_link ); ?>"
 						class="btn btn-secondary desktop-reservation-link">
 						<div class="btn-wrapper">
-							<div class="btn-text">Accommodation</div>
+							<div class="btn-text">Rooms</div>
 						</div>
 					</a>
 
