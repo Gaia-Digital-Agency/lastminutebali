@@ -345,7 +345,7 @@ header {
 
 	.mobile-menu-header {
 		flex-shrink: 0;
-		padding: 1rem 1.1rem !important;
+		padding: 2rem 1.1rem 1rem !important;
 		border-bottom-color: rgba(255, 255, 255, 0.08) !important;
 	}
 
