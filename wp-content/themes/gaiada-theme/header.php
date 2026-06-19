@@ -71,7 +71,7 @@ $accomodation_link = is_front_page() ? '#accomodation-listing' : home_url( '/#ac
 						<i class="fa-solid fa-arrow-right"></i>
 					</a>
 					<a href="<?php echo esc_url( $accomodation_link ); ?>" class="mobile-menu-link">
-						<span>Accommodation</span>
+						<span>Rooms</span>
 						<i class="fa-solid fa-arrow-right"></i>
 					</a>
 				</nav>
