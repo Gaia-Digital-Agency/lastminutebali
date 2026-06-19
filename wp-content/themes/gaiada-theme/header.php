@@ -2,7 +2,7 @@
 /**
  * Header template
  *
- * @package YourThemeName
+ * @package Last Minute Rooms Bali
  */
 
 $accomodation_link = is_front_page() ? '#accomodation-listing' : home_url( '/#accomodation-listing' );
@@ -30,6 +30,11 @@ $accomodation_link = is_front_page() ? '#accomodation-listing' : home_url( '/#ac
 				</a>
 
 				<div class="d-flex align-items-center gap-3">
+
+					<a href="mailto:concierge@humanspedia.info" class="text-white site-envelope-link" aria-label="Contact Us">
+						<i class="fa-regular fa-envelope fa-2xl"></i>
+					</a>
+
 					<a href="<?php echo esc_url( $accomodation_link ); ?>"
 						class="btn btn-secondary desktop-reservation-link">
 						<div class="btn-wrapper">
